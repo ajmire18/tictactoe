@@ -1,0 +1,40 @@
+<html>
+<head>
+<link rel="stylesheet" href="multistyle.css">
+<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+<meta charset="UTF-8" >
+<meta name="viewport" content="width-device-width">
+<title> MTripple T</title>
+
+
+</head>
+<body>
+<h2 id="game-message">Tripple T</h2> 
+<table>
+  
+  <tr>
+    <td class="cell" id="0" onClick="play(this,1)"></td>
+    <td class="cell" id="1" onClick="play(this,2)"></td>
+    <td class="cell" id="2" onClick="play(this,4)"></td>
+  </tr>
+  <tr>
+    <td class="cell" id="3" onClick="play(this,8)"></td>
+    <td class="cell" id="4" onClick="play(this,16)"></td>
+    <td class="cell" id="5" onClick="play(this,32)"></td>
+  
+  </tr>
+  <tr>
+    <td class="cell" id="6" onClick="play(this,64)"></td>
+    <td class="cell" id="7" onClick="play(this,128)"></td>
+    <td class="cell" id="8" onClick="play(this,256)"></td>
+  
+  </tr>
+</table>
+<button onClick="play()">Go again!</button>
+
+
+
+<script src="scriptmulti.js"></script>
+
+</body>
+</html>
